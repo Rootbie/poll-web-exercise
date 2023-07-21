@@ -14,41 +14,70 @@
 </head>
 
 <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg bg-dark">
-            
-            <div class="collapse navbar-collapse" id="navbarNav">
-                
-                <ul class="navbar-nav">
-                    
-                    <li class="navbar-item"><a class="nav-link" href="#">Polls</a></li>
-                    <li class="navbar-item"><a class="nav-link" href="#">Vote</a></li>
-                    <li class="navbar-item"><a class="nav-link" href="#">Create</a></li>
-                    <li class="navbar-item"><a class="nav-link" href="#">List</a></li>
-                </ul>
-                
-            </div>
-        </nav>
 
-        <h1>Great poll</h1>
 
-        <form action="home.html" method="post">
+    <nav class="navbar navbar-expand-md justify-content-end bg-dark">
+        <div class="" id="navbarNav">
+
+            <ul class="navbar-nav">
+                <li class="navbar-item"> <a class="nav-link Polls" href="home.html">Polls</a> </li>
+
+                <li class="navbar-item"><a class="nav-link" href="#">Vote</a></li>
+                <li class="navbar-item"><a class="nav-link" href="create.html">Create</a></li>
+                <li class="navbar-item"><a class="nav-link" href="list.html">List</a></li>
+            </ul>
+
+        </div>
+
+        <!--Login button-->
+        <a class="nav-link" href="#">Login</a>
+    </nav>
+
+
+    <div class="box1-homePolls">
+        <div class="box2-homePolls">
+
+            <h1>Great poll</h1>
+
             <p>1. it is necessary to you?</p>
-            <input type="radio" id="a1-q1" name="q1-gr" value="Yes"><label for="a1-q1">Yes</label><br>
-            <input type="radio" id="a2-q2" name="q1-gr" value="No"><label for="a2-q2">No</label><br>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" id="a1-q1" name="q1-gr" value="Yes">
+                <label class="form-check-label" for="a1-q1">Yes</label><br>
+
+                <input class="form-check-input" type="radio" id="a2-q2" name="q1-gr" value="No">
+                <label class="form-check-label" for="a2-q2">No</label><br>
+            </div>
 
             <p>2. Often pass polls?</p>
-            <input type="radio" id="a1-q2" name="q2-gr" value="Once a month"><label for="a1-q2">Once a month</label><br>
-            <input type="radio" id="a2-q2" name="q2-gr" value="Once a week"><label for="a2-q2">Once a week</label><br>
+            <div class="form-check">
+
+                <input class="form-check-input" type="radio" id="a1-q2" name="q2-gr" value="Once a month">
+                <label class="form-check-label" for="a1-q2">Once a month</label><br>
+
+                <input class="form-check-input" type="radio" id="a2-q2" name="q2-gr" value="Once a week">
+                <label class="form-check-label" for="a2-q2">Once a week</label><br>
+            </div>
 
             <p>3. How old are you?</p>
-            <input type="radio" id="a1-q3" name="q3-gr" value="18-20"><label for="a1-q3">18-20</label><br>
-            <input type="radio" id="a2-q3" name="q3-gr" value="21-23"><label for="a2-q3">21-23</label><br>
 
-            <input type="submit" value="Retain">
+            <div class="form-check">
 
-        </form>
+                <input class="form-check-input" type="radio" id="a1-q3" name="q3-gr" value="18-20">
+                <label class="form-check-label" for="a1-q3">18-20</label><br>
+
+                <input class="form-check-input" type="radio" id="a2-q3" name="q3-gr" value="21-23">
+                <label class="form-check-label" for="a2-q3">21-23</label><br>
+
+            </div>
+
+            <div class="home-btn">
+                <input type="button" value="Retain">
+            </div>
+
+        </div>
     </div>
+
+
 
 </body>
 

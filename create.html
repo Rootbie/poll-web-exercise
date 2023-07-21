@@ -13,37 +13,58 @@
 </head>
 
 <body>
-    <ul>
-        <li>Polls</li>
-        <li>Vote</li>
-        <li>Create</li>
-        <li>List</li>
-    </ul>
 
-    <h1>Create Interview</h1>
-
-    <form action="list.html" method="post">
-        <input type="text" name="" placeholder="Name poll"><br>
-        <input type="text" name="" placeholder="Enter your question"><br>
-
-        <input type="checkbox" name="is_mandatory" id="is_mandatory" value="Mandatory">
-        <label for="is_mandatory">Mandatory</label>
-        <br>
-
-        <input type="checkbox" name="is_multiple" id="is_multiple" value="multiple_options">
-        <label for="is_multiple">You can select multiple options</label>
-        <br>
-
-        <label for="">Possible answers</label>
-        <input type="text" name="" id="" placeholder="Type your answer">
-        <button>+</button>
-        <br>
-
-        <input type="button" value="+ Add question"></input>
-        <button type="submit">Retain</button>
-    </form>
+    <nav class="navbar navbar-expand-md justify-content-end bg-dark">
 
 
+        <div class="" id="navbarNav">
+
+            <ul class="navbar-nav">
+                <li class="navbar-item"> <a class="nav-link Polls" href="home.html">Polls</a> </li>
+
+                <li class="navbar-item"><a class="nav-link" href="#">Vote</a></li>
+                <li class="navbar-item"><a class="nav-link" href="create.html">Create</a></li>
+                <li class="navbar-item"><a class="nav-link" href="list.html">List</a></li>
+            </ul>
+
+        </div>
+
+        <!--Login button-->
+        <a class="nav-link" href="#">Login</a>
+    </nav>
+
+
+    <div class="box1-homePolls">
+        <div class="box2-homePolls">
+
+
+            <h1>Create Interview</h1>
+
+            <form action="list.html" method="post">
+                <input type="text" name="" placeholder="Name poll"><br>
+                <input type="text" name="" placeholder="Enter your question"><br>
+
+                <input type="checkbox" name="is_mandatory" id="is_mandatory" value="Mandatory">
+                <label for="is_mandatory">Mandatory</label>
+                <br>
+
+                <input type="checkbox" name="is_multiple" id="is_multiple" value="multiple_options">
+                <label for="is_multiple">You can select multiple options</label>
+                <br>
+
+                <label for="">Possible answers</label>
+                <input type="text" name="" id="" placeholder="Type your answer">
+                <button>+</button>
+                <br>
+
+                <input type="button" value="+ Add question"></input>
+                <div class="home-btn">
+                    <input type="button" value="Retain">
+                </div>
+            </form>
+
+        </div>
+    </div>
 </body>
 
 </html>
