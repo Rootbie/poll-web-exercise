@@ -1,0 +1,17 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+nav {
+    color: grey;
+}
+
+nav > a{
+    color: grey;
+
+}
